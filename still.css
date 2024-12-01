@@ -157,14 +157,15 @@ ul li {
 
 #specijaliteti {
   width: auto;
-  height: 350px;
+  height: 300px;
   background-color: #e3c5a8;
   justify-content: space-evenly;
   display: flex;
+  margin-top: 40px;
 }
 #specijalitetiSekcija h2 {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 40px;
   font-size: 30px;
   color: #483225;
 }
@@ -284,7 +285,13 @@ ul li {
   width: 100%;
   margin-left: 20px;
 }
-
+.meniSekcija {
+  width: auto;
+}
+.meni {
+  display: block;
+  width: 500px;
+}
 .meni h4 {
   font-size: 25px;
   margin-bottom: 20px;
@@ -297,6 +304,7 @@ ul li {
 }
 .cena h3 {
   color: #e23906;
+  margin: 0px;
 }
 
 .slike img {
