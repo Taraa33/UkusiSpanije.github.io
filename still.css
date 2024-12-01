@@ -75,7 +75,7 @@ ul li {
 #template {
   background-image: url("images/template.jpg");
   background-size: cover;
-  height: 950px;
+  height: 900px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -88,7 +88,6 @@ ul li {
   width: 550px;
   margin-right: 140px;
   height: 310px;
-  margin-top: 70px;
 }
 
 #citat1 {
@@ -361,10 +360,9 @@ main {
   padding: 100px 0px;
   background-color: #e3c5a8;
   width: auto;
-  height: 800px;
 }
 #formular {
-  margin: 0px auto;
+  margin: 80px auto;
   background-color: #c97a45;
   width: 400px;
   border-radius: 30px;
