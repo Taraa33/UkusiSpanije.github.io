@@ -159,8 +159,10 @@ ul li {
   width: auto;
   height: 350px;
   background-color: #e3c5a8;
+  justify-content: space-evenly;
+  display: flex;
 }
-#specijaliteti h2 {
+#specijalitetiSekcija h2 {
   text-align: center;
   padding-top: 30px;
   font-size: 30px;
@@ -178,10 +180,6 @@ ul li {
 }
 .jela img:hover {
   transform: scale(1.1);
-}
-.jela {
-  display: inline-block;
-  margin-left: 150px;
 }
 .jela p {
   text-align: center;
@@ -319,6 +317,7 @@ ul li {
   flex-wrap: wrap;
   margin: 50px auto;
   width: auto;
+  justify-content: space-evenly;
 }
 #autor img {
   width: 350px;
