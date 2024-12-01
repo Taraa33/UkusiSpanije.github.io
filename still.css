@@ -154,6 +154,7 @@ ul li {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 #specijaliteti {
   width: auto;
   height: 350px;
@@ -246,7 +247,6 @@ ul li {
 .meniSekcija {
   display: flex;
   justify-content: space-evenly;
-  margin: 0px auto;
 }
 .naslov h2 {
   text-align: center;
@@ -286,6 +286,7 @@ ul li {
   width: 100%;
   margin-left: 20px;
 }
+
 .meni h4 {
   font-size: 25px;
   margin-bottom: 20px;
@@ -299,20 +300,25 @@ ul li {
 .cena h3 {
   color: #e23906;
 }
+
 .slike img {
   width: 300px;
-  margin: 0px auto;
+  margin: 10px 40px;
   border-radius: 30px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
   transition: transform 2s ease;
   cursor: pointer;
+  padding: 10px;
 }
+
 .slike img:hover {
   transform: scale(1.4);
 }
 .red {
-  margin-top: 100px;
   display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  width: auto;
 }
 #autor img {
   width: 350px;
