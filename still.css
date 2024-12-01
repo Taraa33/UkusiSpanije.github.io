@@ -79,6 +79,7 @@ ul li {
   display: flex;
   justify-content: end;
   align-items: center;
+  width: 100%;
 }
 #text-block {
   border-radius: 10px;
@@ -187,10 +188,11 @@ ul li {
   color: #483225;
 }
 #footer {
-  width: auto;
+  width: 100%;
   height: 300px;
   background-color: #c97a45;
   display: flex;
+  justify-content: space-between;
 }
 #mreze i {
   margin-top: 45px;
@@ -202,7 +204,6 @@ ul li {
   color: #ffd700;
 }
 #kontakt {
-  margin-left: 350px;
   margin-top: 50px;
   color: #483225;
 }
@@ -214,7 +215,6 @@ ul li {
 }
 
 #linkovi {
-  margin-left: 450px;
   margin-top: 50px;
   color: #483225;
 }
@@ -229,8 +229,8 @@ ul li {
   margin-bottom: 5px;
 }
 #logo2 {
-  margin-left: 400px;
   margin-top: 35px;
+  margin-right: 20px;
 }
 #slika img {
   height: 120px;
@@ -343,14 +343,19 @@ ul li {
 main {
   padding: 100px 0px;
   background-color: #e3c5a8;
+  width: auto;
 }
 #formular {
-  margin: 100px 600px;
+  margin: 0px auto;
   background-color: #c97a45;
-  width: 1000px auto;
+  width: 400px;
   border-radius: 30px;
   color: #483225;
   font-size: 18px;
+}
+#formular form {
+  width: 300px;
+  margin: 0px auto;
 }
 #napomena {
   display: block;
@@ -362,8 +367,8 @@ main {
   font-size: 15px;
 }
 .tabela {
-  margin-left: 200px;
   padding: 5px;
+  margin-left: 10px;
 }
 #ime {
   margin-top: 30px;
