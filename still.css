@@ -329,16 +329,16 @@ ul li {
 }
 #autor img {
   width: 350px;
-  margin-top: 120px;
   margin-bottom: 150px;
-  margin-left: 400px;
   border-radius: 30px;
+  margin-top: 100px;
+  margin-left: 300px;
 }
 #o-autoru {
-  width: 500px;
+  width: 450px;
   font-size: 20px;
-  margin-top: 50px;
-  margin-left: 100px;
+  margin-top: 30px;
+  margin-right: 200px;
 }
 #o-autoru h3 {
   margin-top: 160px;
@@ -352,6 +352,7 @@ ul li {
   margin-top: 60px;
 }
 #centar {
+  justify-content: space-evenly;
   display: flex;
 }
 main {
