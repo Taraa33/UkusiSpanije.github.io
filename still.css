@@ -114,9 +114,9 @@ ul li {
 .animacija {
   opacity: 0;
   transform: translateY(20px);
-  animation: fadeInMove 2s ease-out forwards;
+  animation: fade-animacija 2s ease-out forwards;
 }
-@keyframes fadeInMove {
+@keyframes fade-animacija {
   0% {
     opacity: 0;
     transform: translateY(20px);
