@@ -111,7 +111,21 @@ ul li {
 #citat2 a {
   color: #e23906;
 }
-
+.animacija {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInMove 2s ease-out forwards;
+}
+@keyframes fadeInMove {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .linija {
   width: auto;
   height: 50px;
