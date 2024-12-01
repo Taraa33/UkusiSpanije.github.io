@@ -246,6 +246,7 @@ ul li {
 .meniSekcija {
   display: flex;
   justify-content: space-evenly;
+  margin: 0px auto;
 }
 .naslov h2 {
   text-align: center;
@@ -300,7 +301,7 @@ ul li {
 }
 .slike img {
   width: 300px;
-  margin-left: 135px;
+  margin: 0px auto;
   border-radius: 30px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
   transition: transform 2s ease;
